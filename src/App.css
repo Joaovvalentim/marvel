@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*,
+::before,
+::after {
+  border-color: #fcfcfc;
+  overflow-wrap: break-word;
+}
+*,
+::before,
+::after {
+  border-width: 0px;
+  border-style: solid;
+  box-sizing: border-box;
+}
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100%;
+  background-image: url("assets/marvel-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  font-family: "RobotoCondensed", "Trebuchet MS", Helvetica, Arial, sans-serif;
+}
+.container {
+  z-index: 10;
+  background: #fcfcfc;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 410px;
+  height: 518px;
+  padding: 30px 40px;
+  border-bottom: 1px solid black;
+  box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+}
+.label {
+  display: block;
+  text-align: start;
+  font-size: 1rem;
+  white-space: nowrap;
+  margin-inline-end: 0.75rem;
+  margin-bottom: 12px;
+  font-weight: 500;
+  transition-property: background-color, border-color, color, fill, stroke,
+    opacity, box-shadow, transform;
+  transition-duration: 200ms;
+  opacity: 1;
+  color: #2d3a50;
+  letter-spacing: 0.0163rem;
+  line-height: 1.5rem;
+}
+.logos{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    max-width:200px;
+    max-height:56px;;
+}
+.logos img{
+    height:140px;
+}
+.logo-img-2{
+    margin-top: 10px;
+    max-height:80px;
+}
+.title{
+    margin-top:50px;
+    font-family: "RobotoCondensed","Trebuchet MS",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #e62429;
+}
+.group{
+    margin-top:25px;
+}

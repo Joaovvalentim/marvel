@@ -1,0 +1,106 @@
+.inputcss {
+    width: 100%;
+    min-width: 0px;
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    position: relative;
+    appearance: none;
+    transition-property: background-color, border-color, color, fill, stroke,
+      opacity, box-shadow, transform;
+    transition-duration: 200ms;
+    font-size: 1rem;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    height: 2.75rem;
+    border-radius: 0.5rem;
+    border-style: solid;
+    border-image: initial;
+    border-color: #c3c7ce;
+    background: #ffffff;
+    border-width: 1px;
+    color: #2d3a50;
+    font-family: Montserrat;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-weight: 400;
+    letter-spacing: 0.0163rem;
+    line-height: 1.6rem;
+  }
+  .input {
+    width: 100%;
+    display: flex;
+    position: relative;
+    font-family: Montserrat;
+  }
+  .textchinactive {
+    white-space: nowrap;
+  }
+  .inputcss:focus {
+    transition: 200ms;
+    box-shadow: 0 0 5px #412e6e;
+    border: 1px solid #412e6e;
+  }
+  
+  .inputcsserror:focus {
+    transition: 200ms;
+    box-shadow: 0 0 5px #412e6e;
+    border: 1px solid #412e6e;
+    white-space: nowrap;
+  }
+  .textchinactive{
+    color: #D42F35;
+    font-family: "Open Sans",sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0.0125rem;
+    line-height: 1.4rem;
+}
+.spacechinactive{
+    flex: 1 1 0%;
+    place-self: stretch;
+    width: 8px;
+    max-width: 8px;
+    min-width: 8px;
+}
+.renderClss{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 8px;
+}
+.svgerror{
+    color: rgb(212, 47, 53);
+    min-width: 16px;
+    height: 17px;
+    margin-top: 2px;
+}
+  
+  .inputcsserror {
+    width: 100%;
+    min-width: 0px;
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    position: relative;
+    appearance: none;
+    transition-property: background-color, border-color, color, fill, stroke,
+      opacity, box-shadow, transform;
+    transition-duration: 200ms;
+    font-size: 1rem;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    height: 2.75rem;
+    border-radius: 0.5rem;
+    border-style: solid;
+    border-image: initial;
+    border-color: #c3c7ce;
+    background: #ffffff;
+    border-width: 1px;
+    color: #2d3a50;
+    font-family:  Montserrat;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-weight: 400;
+    letter-spacing: 0.0163rem;
+    line-height: 1.6rem;
+    border: 1px solid red;
+  }
+  
