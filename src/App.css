@@ -42,7 +42,7 @@
   height: 518px;
   padding: 30px 40px;
   border-bottom: 1px solid black;
-  box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 6px 6px 4px 4px rgba(0, 0, 0, 0.5);
   border-radius: 4px;
 }
 .label {
@@ -61,28 +61,50 @@
   letter-spacing: 0.0163rem;
   line-height: 1.5rem;
 }
-.logos{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    max-width:200px;
-    max-height:56px;;
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  max-width: 200px;
+  max-height: 56px;
 }
-.logos img{
-    height:140px;
+.logos img {
+  height: 140px;
 }
-.logo-img-2{
-    margin-top: 10px;
-    max-height:80px;
+.logo-img-2 {
+  margin-top: 12px;
+  max-height: 80px;
 }
-.title{
-    margin-top:50px;
-    font-family: "RobotoCondensed","Trebuchet MS",Helvetica,Arial,sans-serif;
-    text-transform: uppercase;
-    font-weight: normal;
-    color: #e62429;
+.title {
+  margin-top: 50px;
+  font-family: "RobotoCondensed", "Trebuchet MS", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #e62429;
+  text-shadow: 4px 4px 10px;
+  border-bottom: 1px solid black;
 }
-.group{
-    margin-top:25px;
+.group {
+  margin-top: 25px;
+}
+.container-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+}
+.button {
+  cursor: pointer;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  width: 228px;
+  border-radius: 8px;
+  font-weight: 600;
+  background: #cc1d1d 0% 0% no-repeat padding-box;
+  color: #ffffff;
+  font-family: "RobotoCondensed", "Trebuchet MS", Helvetica, Arial, sans-serif;
+  min-height: 2.75rem;
+  letter-spacing: 0.0163rem;
 }
