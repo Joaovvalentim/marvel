@@ -2,7 +2,7 @@
 // import { useEffect } from "react"
 // import axios from "axios"
 import Sidebar from "../Sidebar/sidebar.js"
-
+import Navbar from "../navbar/navbar.js"
 
 function Home() {
     // const [url, setUrl] = useState("https://gateway.marvel.com/v1/public/events?limit=50&ts=1&apikey=13de8cb4b81be778346b02357a4118a2&hash=5ec2696e63a3da51dcac469d72b9e93f")
@@ -25,6 +25,7 @@ function Home() {
 
     return (
         <div>
+            <Navbar/>
             <Sidebar />
             {/* <p>Home</p> */}
         </div>
