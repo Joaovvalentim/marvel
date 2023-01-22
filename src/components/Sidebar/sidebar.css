@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,700&display=swap');
+
+/*  containers  */
+
+.container-sidebar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #202020;
+  color: whitesmoke;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container-top {
+  max-height: 52px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid gray;
+}
+
+/*  Div nome  */
+.name-sidebar {
+  height: 51px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-transform: uppercase;
+  padding: 0 25px;
+  cursor: pointer;
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+}
+
+.name-sidebar p {
+  font-weight: bold;
+}
+
+/*  Div logos  */
+.logo-sidebar img {
+  width: 183px;
+}
+
+.logo-sidebar-2 {
+  display: flex;
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+}
+
+.logo-sidebar-2 img {
+  max-height: 52px;
+}
+
+.text-sidebar {
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+}
+
+/*  container bottom(pesquisas) */
+
+.container-bottom {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  height: 40px;
+}
+
+.sidebar-texts {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px;
+  text-transform: uppercase;
+  font-weight: 800;
+  padding: 0 18px;
+  margin: 0 auto;
+  cursor: pointer;
+  font-size: 12px;
+}
