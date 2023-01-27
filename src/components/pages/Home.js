@@ -25,7 +25,6 @@ function Home() {
 
     return (
         <div>
-            <Navbar/>
             <Sidebar />
             {/* <p>Home</p> */}
         </div>

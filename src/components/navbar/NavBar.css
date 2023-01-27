@@ -1,46 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,700&display=swap');
+
 .navbar {
-    height: 10vh;
-    background: #1b1919;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
   }
-  
-  .navbar-logo {
-    color: white;
-    text-decoration: none;
-    font-size: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 10rem;
-  }
-  
+
   .nav-items {
+    width: 100%;
     display: flex;
     list-style: none;
     text-align: center;
-    width: 70vw;
-    justify-content: flex-end;
-    margin-right: 2rem;
+    justify-content: center;
   }
   
   .nav-item {
     display: flex;
     align-items: center;
-    height: 10vh;
+    height:40px;
   }
   
   .nav-item a {
+    font-family: 'Roboto Condensed', sans-serif;
     text-decoration: none;
     color: white;
-    font-size: 1.1rem;
-    margin-right: 2rem;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: bold;
     padding: 6px 16px;
-    border-radius: 5px;
   }
   
   .nav-item a:hover {
-    background: rgb(0, 212, 212);
+    color: gray;
+    /* border-bottom: 3px solid red; */
   }
   

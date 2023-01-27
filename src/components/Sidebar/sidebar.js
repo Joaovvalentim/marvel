@@ -1,6 +1,7 @@
 import './sidebar.css';
 import logo from '../../assets/marvel-logo.png'
 import logo2 from '../../assets/marvel-logo-unlimited.png'
+import Navbar from '../navbar/navbar';
 function Sidebar() {
 
     return (
@@ -20,26 +21,7 @@ function Sidebar() {
                 </div>
             </div>
             <div className="container-bottom">
-                <div className='sidebar-texts'>
-                    <div className="sidebar-character">
-                        <p>personagens</p>
-                    </div>
-                    <div className="sidebar-comics">
-                        <p>quadrinhos</p>
-                    </div>
-                    <div className="sidebar-creators">
-                        <p>criadores</p>
-                    </div>
-                    <div className="sidebar-events">
-                        <p>eventos</p>
-                    </div>
-                    <div className="sidebar-series">
-                        <p>series</p>
-                    </div>
-                    <div className="sidebar-stories">
-                        <p>stories</p>
-                    </div>
-                </div>
+            <Navbar />
             </div>
         </div>
     )
