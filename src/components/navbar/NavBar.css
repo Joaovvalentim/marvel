@@ -36,6 +36,6 @@
   
   .nav-item a:hover {
     color: gray;
-    /* border-bottom: 3px solid red; */
+    border-bottom: 4px solid red;
   }
   
